@@ -136,110 +136,184 @@ img {
   margin: auto;
   text-align: right;
   margin-top: -343px;
-  margin-right: 140px;
+  margin-right: 145px;
 }
 
 .white-recktangle1 {
   margin-left: 51.1%;
-  margin-top: 4%;
+  margin-top: 5%;
   background-color: white;
   color: black;
+  width: 300px;
 }
 
 .För-namn {
   color: white;
   margin-left: 51.1%;
-  margin-top: -4%;
+  margin-top: -3.1%;
 }
 
 .white-recktangle2 {
   margin-left: 51.1%;
-  margin-top: 4%;
+  margin-top: 5%;
   background-color: white;
   color: black;
+  width: 300px;
 }
 
 .Efter-namn {
   color: white;
   margin-left: 51.1%;
-  margin-top: -4%;
+  margin-top: -3.1%;
 }
 
 .white-recktangle3 {
   margin-left: 51.1%;
-  margin-top: 4%;
+  margin-top: 5%;
   background-color: white;
   color: black;
+  width: 300px;
 }
 
 .Adress {
   color: white;
   margin-left: 51.1%;
-  margin-top: -4%;
+  margin-top: -3.1%;
 }
 
 .white-recktangle4 {
   margin-left: 51.1%;
-  margin-top: 4%;
+  margin-top: 5%;
   background-color: white;
   color: black;
+  width: 300px;
 }
 
 .Telefon-nummer {
   color: white;
   margin-left: 51.1%;
-  margin-top: -4%;
+  margin-top: -3.1%;
 }
 
 .white-recktangle5 {
   margin-left: 51.1%;
-  margin-top: 4%;
+  margin-top: 5%;
   background-color: white;
   color: black;
+  width: 300px;
 }
 
 .Epost-adress {
   color: white;
   margin-left: 51.1%;
-  margin-top: -4%;
+  margin-top: -3.1%;
 }
 
 .white-recktangle6 {
   margin-left: 51.1%;
-  margin-top: 4%;
+  margin-top: 5%;
   background-color: white;
   color: black;
+  width: 300px;
 }
 
 .Ärende {
   color: white;
   margin-left: 51.1%;
-  margin-top: -8.1%;
+  margin-top: -3.1%;
 }
 
-.recktangle {
+.recktangle-main {
   margin-left: 27%;
   margin-top: 6%;
-  color: white;
-  background-color: white;
-  
-  
+  color: rgba(0, 0, 0, 0.767);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
-.recktangle-privat{
+.recktangle-privat {
   margin-left: 34%;
   margin-top: -19%;
-  color: rgb(109, 109, 109);
-  background-color:rgb(109, 109, 109);
+  background-color: rgb(176, 176, 176);
 }
 
-.recktangle-företag{
+.recktangle-företag {
   margin-left: 52%;
   margin-top: -2.55%;
-  color: rgb(109, 109, 109);
-  background-color:rgb(109, 109, 109);
+  background-color: rgb(176, 176, 176);
 }
 
+.Användarnamn {
+  margin-left: 34%;
+  margin-top: 2%;
+  background-color: rgb(255, 255, 255);
+  width: 28.4%;
+}
 
+.Lösenord {
+  margin-left: 34%;
+  margin-top: 2%;
+  background-color: rgb(255, 255, 255);
+  width: 28.4%;
+}
 
+.Kvadrat-kom-ihåg-mig {
+  margin-left: 34%;
+  margin-top: 2%;
+  background-color: rgb(176, 176, 176);
+}
 
+.recktangle-privat p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4px;
+}
+
+.recktangle-företag p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4px;
+}
+
+.recktangle-main p {
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  color: white;
+  margin-top: 30px;
+  margin-right: 5px;
+}
+
+.recktangle-main p2 {
+  display: flex;
+  justify-content: bottom;
+  align-items: bottom;
+  color: rgb(85, 85, 255);
+  margin-top: 180px;
+  margin-left: 110px;
+}
+
+.recktangle-main p3 {
+  display: flex;
+  justify-content: bottom;
+  align-items: bottom;
+  color: rgb(85, 85, 255);
+  margin-left: 220px;
+  margin-top: -17px;
+}
+
+.recktangle-Logga-in {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 7px;
+  background-color: rgb(255, 255, 255);
+  margin-left: 34%;
+}
+.click-here {
+  color: rgba(0, 0, 0, 0);
+  position: absolute;
+  top: 1px;
+  left: 1px;
+}
